@@ -20,6 +20,9 @@
         "illuminate/support": "^11.4"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.0"
+        },
         "laravel": {
             "providers": [
                 "dharmik225\\TempMailBlocker\\Providers\\TempMailBlockerServiceProvider"
