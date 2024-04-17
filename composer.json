@@ -1,0 +1,29 @@
+{
+    "name": "dharmik225/temp-mail-blocker",
+    "type": "library",
+    "description": "Extended Validator for block temporary emails",
+    "homepage": "https://github.com/dharmik225/temp-mail-blocker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dharmik",
+            "email": "dharmikbhadkoliya365@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dharmik225\\TempMailBlocker\\": "src/"
+        }
+    },
+    "require": {
+        "php": "~8.0|~8.3",
+        "illuminate/support": "^11.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dharmik225\\TempMailBlocker\\Providers\\TempMailBlockerServiceProvider"
+            ]
+        }
+    }
+}
