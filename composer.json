@@ -28,5 +28,7 @@
                 "dharmik225\\TempMailBlocker\\Providers\\TempMailBlockerServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
